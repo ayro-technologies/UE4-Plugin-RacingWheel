@@ -24,17 +24,7 @@ public class RacingWheel : ModuleRules
 			}
 			);
 				
-		
-		PrivateIncludePaths.AddRange(
-			new string[] {
-				"RacingWheel/Private",
-				
-				// ... add other private include paths required here ...
-			}
-			);
-			
-		
-		PublicDependencyModuleNames.AddRange(
+				PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
@@ -57,6 +47,17 @@ public class RacingWheel : ModuleRules
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
+		
+		PrivateIncludePaths.AddRange(
+			new string[] {
+				"RacingWheel/Private",
+				
+				// ... add other private include paths required here ...
+			}
+			);
+			
+		
+		
 		
 		
 		DynamicallyLoadedModuleNames.AddRange(
