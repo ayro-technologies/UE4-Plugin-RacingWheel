@@ -71,7 +71,7 @@ public class RacingWheel : ModuleRules
 		LoadSDLLib(Target);
 	}
 	
-	/***** Externe Functions *****/
+	/***** External Functions *****/
 
 	// Get the actual Path the Plugin
 	private string ModulePath
